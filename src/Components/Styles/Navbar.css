@@ -1,0 +1,245 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1117;
+  font-family: "Poppins", sans-serif;
+  z-index: 50;
+  user-select: none;
+  position: fixed;
+}
+.linktohome{
+  text-decoration: none;
+}
+.right_nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100%;
+  width: 800px;
+  background-color: transparent;
+  z-index: 50 !important;
+}
+.logo_img {
+  width: 20%;
+  margin-left: 3%;
+  height: 60px;
+  display: flex;
+  line-height: 25px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #088409;
+  font-size: 30px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900 !important;
+  background: linear-gradient(90deg, #4ca5ff 2.34%, #b673f8 100.78%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 100;
+}
+.logo {
+  width: 60px;
+  height: 100%;
+  border-radius: 50%;
+}
+.nav-ul {
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition: all 0.5s;
+}
+.nav-li {
+  width: 100%;
+  transition: all 0.5s;
+}
+.nav-link {
+  background-color: transparent;
+  text-decoration: none;
+  color: #cfcfcf;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: all 0.5s;
+  width: 100%;
+}
+.nav-link:hover {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #ff7170 2.34%, #ffe57f 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all 0.5s linear;
+}
+.moon {
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fa-moon:hover {
+  cursor: pointer;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #ff7170 2.34%, #ffe57f 100.78%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+@media screen and (max-width: 1024px) {
+  .right_nav {
+    width: 600px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .moon {
+    font-size: 20px;
+  }
+  .logo_img {
+    height: 50px;
+  }
+  .logo {
+    width: 50px;
+  }
+}
+
+.fa-bars,
+.fa-xmark {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .right_nav {
+    display: none;
+  }
+  .fa-bars,
+  .fa-xmark {
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    margin-right: 5%;
+  }
+  .fa-xmark{
+    text-align: left !important;
+  }
+  .moon{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+  .nav{
+    height: 10vh;
+  }
+}
+.right_nav_after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161b22;
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate(100%);
+  z-index: 50;
+  flex-direction: column;
+  transition: all 0.4s;
+  transition-duration: 1s;
+}
+.nav-ul-after{
+  height: 70px;
+}
+.nav-li-after{
+  height: 50px;
+}
+.right_nav_open {
+  transform: translate(0%) !important;
+}
+.bars_div{
+  display: flex !important;
+  justify-content: left !important;
+  width: 100%;
+  align-items: center;
+  padding-left: 10%;
+}
+.after_menu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width:768px){
+  .logo_img{
+    width: 30% !important;
+    margin-left: 8%;
+    font-size: 25px;
+  }
+  .right_nav{
+    width: 0;
+  }
+}
+@media screen and (max-width:530px){
+  .right_nav_after {
+    width: 40%;
+  }
+  .logo_img{
+    width: 40% !important;
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width:425px){
+  .fa-bars{
+    font-size: 30px;
+  }
+  .logo_img{
+    font-size: 20px;
+  }
+  .right_nav_after {
+    width: 55%;
+  }
+}
+@media screen and (max-width:375px){
+  .logo_img{
+    margin-left: 1%;
+    z-index: 10;
+  }
+  .right_nav_after{
+    height: 100%;
+  }
+  .right_nav_after {
+    width: 70%;
+  }
+  .nav{
+    width: 100%;
+  }
+}
+@media screen and (max-width:320px){
+  .logo_img{
+    margin: 0;
+    width: 75% !important;
+    text-align: center;
+  }
+  .fa-bars{
+    padding-right:5%;
+  }
+}

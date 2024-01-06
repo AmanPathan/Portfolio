@@ -1,0 +1,27 @@
+*{
+  background-color: #111111;
+  scroll-behavior: smooth;
+}
+.backdrop_open{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  background-color: rgba(13, 17, 23,0.5);
+}
+.backdrop{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: transparent;
+}
+@media screen and (max-width:375px){
+  .backdrop_open{
+    height: 120vh;
+  }
+}

@@ -1,0 +1,136 @@
+#Timeline{
+    background-color: #0d1117;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    overflow-x: hidden;
+}
+.fa-graduation-cap{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: transparent;
+}
+.vertical{
+    /* background-color: transparent !important; */
+    color: #fff;
+}
+.vertical-timeline-element-date{
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: 600 !important; 
+}
+.year_place{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    color: #c4c4c4;
+}
+.ssc{
+    width: 55%;
+}
+.vertical-timeline-element-content{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url("../Images/bg11.svg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  
+}
+.vertical-timeline-element-content-arrow{
+    border: 12px solid transparent !important;
+    border-right: 13px solid rgba(255, 255, 255, 0.1) !important;
+}
+@media screen and (max-width:1170px) {
+    .vertical-timeline-element{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    .vertical-timeline-element-icon{
+        width: 60px !important;
+        height:  60px !important;
+    }
+    .vertical-timeline::before {
+        left: 23% !important;
+    }
+    /* .vertical-timeline-element-content{
+    } */
+    .vertical-timeline-element-content{
+        width: 80%;
+    }
+    .vertical-timeline{
+        /* background-color: red !important; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .year_place{
+        width: 60%;
+    }
+}
+@media screen and (max-width:768px){
+    .vertical-timeline-element{
+        width: 80%;
+    }
+    .vertical-timeline-element-content{
+        width: 80%;
+    }
+    .year_place{
+        width: 80%;
+    }
+    .vertical-timeline::before {
+        left: 14% !important;
+    }
+    .edu_title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .vertical-timeline-element-icon{
+        width: 50px !important;
+        height:  50px !important;
+    }
+    .fa-graduation-cap{
+        font-size: 20px;
+    }
+    .vertical-timeline-element-content {
+        left: 2% !important;
+    }
+}
+@media screen and (max-width:426px){
+    .year_place{
+        width: 100%;
+    }
+    #Timeline{
+        padding-top: 8vh;
+    }
+    .myedutitle{
+        font-size: 30px;
+    }
+    .vertical-timeline::before {
+        left: 12% !important;
+    }
+    .vertical-timeline-element{
+        left: -4% ;
+    }
+    .vertical-timeline-element-content {
+        left: 6% !important;
+        width: 85%;
+    }
+    .vertical-timeline-element-date{
+        font-size: 18px !important;
+    }
+}
