@@ -1,11 +1,14 @@
 .github_div{
     width: 100%;
-    height: 300px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fff;
+}
+#Skills1{
+  padding-top: 12%;
 }
 .github_title{
     font-size: 30px;

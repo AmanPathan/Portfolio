@@ -27,7 +27,7 @@ const Timeline = () => {
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement className="vertical-timeline-element--education vertical" iconStyle={{ background: '#2190ff', color: '#fff' }} icon={<i class="fa-solid fa-graduation-cap"></i>}
-                    date="8.5 SGPA">
+                    date="9.1 CGPA">
                     <div className="timeline_text">
                         <h2 className="edu_title" >B.E Information technology</h2>
                         <h3>Dr. D. Y. Patil College of Engineering</h3>

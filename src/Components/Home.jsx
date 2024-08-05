@@ -60,7 +60,7 @@ const Home = () => {
                                     1000,
                                     "Full Stack Developer",
                                     1000,
-                                    "Blockchain Developer",
+                                    "Information Technology Student",
                                     1000,
                                 ]}
                                 wrapper="span"

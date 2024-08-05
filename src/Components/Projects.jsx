@@ -5,6 +5,7 @@ import img2 from '../Components/Images/adhyay.webp';
 import img3 from '../Components/Images/weather.png';
 import img4 from '../Components/Images/movie.png';
 import img5 from '../Components/Images/inacan.png';
+import img_p from '../Components/Images/placement.png';
 
 const Projects = () => {
 
@@ -14,6 +15,19 @@ const Projects = () => {
                 <h2 data-aos="zoom-in">Projects</h2>
                 <div className="slider">
                     <div className="slider_center">
+                        <div className="slider_element">
+                            <div className="slider_element_left">
+                                <img src={img_p} data-aos="fade-up" data-aos-duration="500" className="slider_img" />
+                            </div>
+                            <div className="slider_element_right">
+                                <p className="project_title">Placement Portal</p>
+                                <p className="project_text">A platform for all the juniors of IT Department to get an brief understanding of college placement statistics and interview experiences of placed students. Help students prepare for upcoming placements by providing company specific data.</p>
+                                <div className="project_links_div">
+                                    <a href="https://github.com/AmanPathan/PlacementPortalCollege" className="project_link"><i class="img-icon fa-brands fa-github"></i></a>
+                                    <a href="https://dypcoe-placement-portal.vercel.app/" target="_blank" className="project_link"><i class="img-icon fa-solid fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
                         <div className="slider_element">
                             <div className="slider_element_left">
                                 <img src={img1} data-aos="fade-up" data-aos-duration="500" className="slider_img" />
@@ -62,7 +76,7 @@ const Projects = () => {
                                 <p className="project_text">Weather Forescasting App named Cloud Journal where we can see weather of current location and search weather of other cities using search functionality. API used in this app is  WeatherAPI.Built using API, HTML, CSS, JS, and React.js</p>
                                 <div className="project_links_div">
                                     <a href="https://github.com/AmanPathan/WeatherForecastApp" className="project_link"><i class="img-icon fa-brands fa-github"></i></a>
-                                    <a href="https://cloudjournal.netlify.app/" target="_blank" className="project_link"><i class="img-icon fa-solid fa-link"></i></a>
+                                    <a href="http://15.207.249.44:3000" target="_blank" className="project_link"><i class="img-icon fa-solid fa-link"></i></a>
                                 </div>
                             </div>
                         </div>

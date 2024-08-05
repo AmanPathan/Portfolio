@@ -54,17 +54,8 @@ const Skills = () => {
                         <div className="skill_icons">
                             <span title="Python"><img alt={'Python'} className="svg svg1" src={python} /></span>
                             <span title="C++"><img alt={"C++"} className="svg svg1" src={cpp} /></span>
-                            <span title="Java"><img alt={"Java"} className="svg svg1" src={java} /></span>
-                            <span title="Solidity"><img alt={"Solidity"} className="svg svg1 sol" src={solidity} /></span>
                             <span title="VSCode"><img alt={"VS Code"} className="svg svg1" src={vscode} /></span>
-                        </div>
-                    </div>
-                    <div className="datadiv" data-aos="zoom-in">
-                        <div className="titles titles_dot">.</div>
-                        <div className="skill_icons">
                             <span title="Git"><img alt={"Git"} className="svg svg1" src={git} /></span>
-                            <span title="Jupyter"><img alt={"Jupyter"} className="svg svg1" src={jupyter} /></span>
-                            <span title="Arduino"><img alt={"Arduino"} className="svg svg1" src={arduino} /></span>
                             <span title="GitHub"><img alt={"GitHub"} className="svg svg1" src={github} /></span>
                             <span title="Postman"><img alt={"Postman"} className="svg svg1 post" src={postman} /></span>
                         </div>

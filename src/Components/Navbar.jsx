@@ -10,10 +10,10 @@ const Navbar = ({check,setCheck}) => {
                 <div className='logo_img'><img src={aman} className='logo' alt='Aman' /><a href='#' className='linktohome'>Aman<br></br> Pathan</a></div>
                 <i class="fa-solid fa-bars bar" onClick={() => {setCheck(!check) }}></i>
                 <div className='right_nav'>
-                    <ul className='nav-ul'><li className='nav-li' smooth={true} offset={0} duration={200}><Link className='nav-link' to='Hero'>Home</Link></li></ul>
+                    <ul className='nav-ul'><li className='nav-li' smooth={true} offset={0} duration={200}><Link className='nav-link' to='z'>Home</Link></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='About' smooth={true} offset={0} duration={500}>About</Link></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='Timeline' smooth={true} offset={0} duration={500}>Education</Link></li></ul>
-                    <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='Skills' smooth={true} offset={0} duration={500}>Skills</Link></li></ul>
+                    <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='Skills1' smooth={true} offset={0} duration={500}>Skills</Link></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='Projects' smooth={true} offset={0} duration={500}>Projects</Link></li></ul>
                     <ul className='nav-ul'><li className='nav-li'><Link className='nav-link' to='Contact' smooth={true} offset={0} duration={500}>Contact</Link></li></ul>
                     {/* <ul className='nav-ul'><li className='nav-li moon'><i className="fa-solid fa-moon"></i></li></ul> */}
@@ -23,7 +23,7 @@ const Navbar = ({check,setCheck}) => {
                 <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after' smooth={true} offset={0} duration={200}><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Hero'>Home</Link></li></ul>
                 <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='About' smooth={true} offset={0} duration={500}>About</Link></li></ul>
                 <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Timeline' smooth={true} offset={0} duration={500}>Education</Link></li></ul>
-                <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Skills' smooth={true} offset={0} duration={500}>Skills</Link></li></ul>
+                <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Skills1' smooth={true} offset={0} duration={500}>Skills</Link></li></ul>
                 <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Projects' smooth={true} offset={0} duration={500}>Projects</Link></li></ul>
                 <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after'><Link className='nav-link nav-link-after' onClick={() => {setCheck(false) }} to='Contact' smooth={true} offset={0} duration={500}>Contact</Link></li></ul>
                 {/* <ul className='nav-ul nav-ul-after'><li className='nav-li nav-li-after moon'><i className="fa-solid fa-moon"></i></li></ul> */}
